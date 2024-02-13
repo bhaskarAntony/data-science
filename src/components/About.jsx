@@ -56,7 +56,7 @@ counter()
                 <div className="col-lg-8 col-md-6 col-sm-12 align-item-center">
                   <h1 className="text-main fs-1">Bootcamp co-ordinater</h1>
                   <h1 className="fs-3 text-white">Ganesh</h1>
-                  <span className="fs-4 d-block text-white">Data Science Fullstack trainer</span>
+                  <span className="fs-4 d-block text-white">MERN Fullstack trainer</span>
                   <span className='text-white'>10 Years of experience</span>
                   
                   <div className="project">
@@ -82,7 +82,7 @@ counter()
                         <div className="card bg-main h-100 text-white">
                           <div className="card-body">
                               <h4 className='text-700'> <i className="bi bi-calendar-check"></i> When</h4>
-                              <h6 className="text-white">18th - 19th - 20th Jan 2024</h6>
+                              <h6 className="text-white">22nd - 23rd Feb 2024</h6>
                           </div>
                         </div>
                     </div>
