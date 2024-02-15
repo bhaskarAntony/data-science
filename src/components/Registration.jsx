@@ -360,7 +360,14 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='coupon' placeholder='Coupon Code (optional)'  value={reg.coupon} onChange={readValue} />
+                               <div className="row">
+                                <div className="col-12 col-md-7">
+                                <input type="text" className="form-control p-3" name='college' placeholder='College name'  />
+                                </div>
+                                <div className="col-12 col-md-5">
+                                <input type="text" className="form-control p-3" name='year' placeholder='year of passing'  />
+                                </div>
+                               </div>
                             </div>
                               {
                                 isCoupon?(
