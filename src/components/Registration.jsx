@@ -73,7 +73,8 @@ function Registration() {
         name: "",
         email: "",
         mobile: "",
-        coupon: "",
+        college: "",
+        year: "",
       });
       if(reg.coupon===null){
         setIsCoupon(false)
@@ -362,10 +363,10 @@ function Registration() {
                             <div className="form-group mt-2">
                                <div className="row">
                                 <div className="col-12 col-md-7">
-                                <input type="text" className="form-control p-3" name='college' placeholder='College name'  />
+                                <input type="text" className="form-control p-3" name='college' placeholder='College name' value={reg.college} onChange={readValue} />
                                 </div>
                                 <div className="col-12 col-md-5">
-                                <input type="text" className="form-control p-3" name='year' placeholder='year of passing'  />
+                                <input type="text" className="form-control p-3" name='year' placeholder='year of passing' value={reg.year} onChange={readValue} />
                                 </div>
                                </div>
                             </div>
