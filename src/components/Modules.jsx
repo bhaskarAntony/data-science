@@ -5,15 +5,15 @@ import '../styles/Homehero.css'
 const moduledata = [
     {
         tag:"day1",
-        heading:" Data Analytics",
-        description:"You will develop foundational skills in Data Science using Python, NumPy, and Pandas. You’ll understand the business domain and their requirements by analyzing the data which you will add to as you progress through the program.",
+        heading:"Python",
+        description:"You will develop foundational skills in Data Analytics using Python, NumPy, and Pandas. You’ll understand the business domain and their requirements by analyzing the data which you will add to as you progress through the program.",
         topicCovered:["Python", "NumPy", "Pandas"]
     },
     {
         tag:"day2",
         heading:" Data Analytics        ",
         description:"You will work with Pandas and Viz libraries to become confident in Data Analysis. You will learn the essentials for working with the data, Going in depth analysis about data and advance customization and visualization with Plotly library.        ",
-        topicCovered:["Pandas", "Viz librarie", " visualization with Plotly library"]
+        topicCovered:["Pandas", "Viz library", " visualization with Plotly library"]
     },
 ]
 function Modules() {
@@ -21,7 +21,7 @@ function Modules() {
    <div className='module-container'>
     <h1 className="fs-1 text-white text-center mt-5">What you can expect in <span className="text-main">2 days</span>?</h1>
     <p className="fs-6 text-center text-white px-4">
-    This program is organized into three main modules using Data Science:      Understanding business requirements, Data processing, and Data Analysis. Each module builds on the next, and is designed to prepare you to enter the job market as an entry-level data scientist, or to specialize in one of these areas with further skill development.
+    This program is organized into three main modules using Data Analytics:      Understanding business requirements, Data processing, and Data Analysis. Each module builds on the next, and is designed to prepare you to enter the job market as an entry-level data scientist, or to specialize in one of these areas with further skill development.
     </p>
   <div className="conatiner p-3">
     <div className="row align-items-center">

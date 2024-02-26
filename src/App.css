@@ -1,5 +1,5 @@
 :root{
-  --green-color:#7E30E1;
+  --green-color:#FFBE98;
   --black-color:#1a1a1a;
   --dark-blue:#222222;
   --dark-green:#395c51
@@ -43,7 +43,7 @@
   background-color: var(--green-color);
   padding: 15px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #131313;
   border-radius: 10px;
 }
 .div-block-876 {
