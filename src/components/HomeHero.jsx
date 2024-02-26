@@ -15,7 +15,7 @@ function HomeHero() {
         <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete Data Science,  Get E-Certificate and Study Meterial</div>
         <div className="date-container mt-5">
             <button className="div-block-876"> <i class="bi bi-calendar2-event"></i>28th - 29th Feb 2024 </button>
-            <button className="div-block-876"> <i class="bi bi-alarm"></i> 7:00PM to 9:00PM</button>
+            <button className="div-block-876"> <i class="bi bi-alarm"></i> 7:30PM to 9:00PM</button>
         </div>
         <div className='container mt-5 text-start'>
         <div className="row align-items-center justify-content-center">

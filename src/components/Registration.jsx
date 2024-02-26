@@ -42,7 +42,7 @@ const LoadingModal = () => {
               <p className='fs-5 text-white'>
               Confirm Here For free Data Science Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/INg6WosbQBx4svP30iESFM" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
+              <Link to="https://chat.whatsapp.com/IOVmQdBTIxLJqYoPK9nZYS" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
             </div>
           </div>
@@ -361,10 +361,10 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='college' placeholder='collge name'  value={reg.college} onChange={readValue} />
+                                <input type="text" className="form-control p-3" name='college' placeholder='collge name'  value={reg.college} onChange={readValue} required />
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='year' placeholder='Year of passing'  value={reg.year} onChange={readValue} />
+                                <input type="text" className="form-control p-3" name='year' placeholder='Year of passing'  value={reg.year} onChange={readValue} required />
                             </div>
                               {/* {
                                 isCoupon?(
