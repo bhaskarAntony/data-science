@@ -21,7 +21,7 @@ function Certificate() {
                 </p>
                 <h1 className='p-large-xl text-900 text-main mb-3'>Data Analytics  Bootcamp:</h1>
                 <p className="p-large text-white">
-                The Bootcamp was conducted on  28<sup>th</sup>-29 <sup>th</sup> Feb 2024, and its duration spanned  3 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Data Analytics .
+                The Bootcamp was conducted on  28<sup>th</sup>-29 <sup>th</sup> Feb 2024, and its duration spanned  4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Data Analytics .
                 </p>
             </div>
         </div>
