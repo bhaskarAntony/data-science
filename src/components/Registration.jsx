@@ -210,7 +210,7 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/dataAnalytics/register', reg)
+              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/datascience/register', reg)
               .then(response => {
                 // Handle the response data here
                 toast.success("Thank you for registering to Data Analytics  Bootcamp")
