@@ -40,9 +40,9 @@ const LoadingModal = () => {
              New Message to Confirm.
               </p>
               <p className='fs-5 text-white'>
-              Confirm Here For free MERN Fullstack Development Bootcamp
+              Confirm Here For free Data Science Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/CmR48GWC2N4AnSjmr57mzD" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
+              <Link to="https://chat.whatsapp.com/INg6WosbQBx4svP30iESFM" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ function Registration() {
     const [freeCoupon, setFreeCoupon] = useState(false)
     useEffect(() => {
       // Fetch influencer data from the API endpoint
-      axios.get('https://emerald-sockeye-tux.cyclic.app//api/influencers/list')
+      axios.get('https://stormy-flannel-nightgown-ox.cyclic.app/datascience/list')
         .then((response) => {
           setInfluencers(response.data);
           console.log("influencers", response.data);
@@ -210,10 +210,10 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/mern/register', reg)
+              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/datascience/register', reg)
               .then(response => {
                 // Handle the response data here
-                toast.success("Thank you for registering to MERN fullstack development Bootcamp")
+                toast.success("Thank you for registering to Data Science  Bootcamp")
                 setShowModal(true)
                 console.log(response);
               })
@@ -333,7 +333,7 @@ function Registration() {
        <div className="registration-form-container text-center rounded-3">
                 <div className="card register-form rounded-3">
                     <div className="card-header text-start">
-                    <h1 className="p-large-xl text-white">Enroll Our <br />MERN Fullstack Development Bootcamp</h1>
+                    <h1 className="p-large-xl text-white">Enroll Our <br />Data Science  Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
             <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
@@ -361,16 +361,12 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                               <div className="row">
-                                <div className="col-12 col-md-7">
-                                <input type="text" className="form-control p-3" name='college' placeholder='College name' value={reg.college} onChange={readValue} />
-                                </div>
-                                <div className="col-12 col-md-5">
-                                <input type="text" className="form-control p-3" name='year' placeholder='year of passing' value={reg.year} onChange={readValue} />
-                                </div>
-                               </div>
+                                <input type="text" className="form-control p-3" name='college' placeholder='collge name'  value={reg.college} onChange={readValue} />
                             </div>
-                              {
+                            <div className="form-group mt-2">
+                                <input type="text" className="form-control p-3" name='year' placeholder='Year of passing'  value={reg.year} onChange={readValue} />
+                            </div>
+                              {/* {
                                 isCoupon?(
                                    <div class="alert alert-success mt-4" role="alert">
                                     Hurry! 50% Coupon Applied. <b><del>&#8377; 199/- </del>&#8377; 99/- </b> Only <b>Pay Now <i class="bi bi-arrow-right"></i></b>
@@ -379,11 +375,11 @@ function Registration() {
                                 ):(
                                  null
                                 )
-                              }
+                              } */}
                                {
                                 freeCoupon ? (
                                    <div class="alert alert-success mt-4" role="alert">
-                                     Congratulations! You are eligible for free registration to our MERN fullstack development Bootcamp. <i class="bi bi-arrow-right"></i>
+                                     Congratulations! You are eligible for free registration to our Data Science  Bootcamp. <i class="bi bi-arrow-right"></i>
                                   </div>
                                  
                                 ):(

@@ -4,10 +4,12 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import { ToastContainer } from 'react-toastify';
-import { BrowserRouter, Router } from 'react-router-dom';
+import FreeRegistration from './components/FreeRegistration';
+import Scroll from './components/Scroll';
+import { BrowserRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import { useEffect } from 'react';
-ReactGA.initialize('G-QJMJLM7R1R');
+ReactGA.initialize('G-BT83GKM9XN');
 
 function App() {
   ReactGA.event({
@@ -35,7 +37,7 @@ function App() {
       {/* <Scroll/> */}
      <BrowserRouter>
      <Header/>
-      <ToastContainer autoClose={4000} position='bottom-right' />
+      <ToastContainer autoClose={4000} position='top-right' />
       <Home/>
       {/* <FreeRegistration/> */}
       <Footer/>
