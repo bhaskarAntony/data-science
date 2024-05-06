@@ -11,7 +11,7 @@ const moduledata = [
     },
     {
         tag:"day2",
-        heading:" Data Science        ",
+        heading:" Data Analytics",
         description:"You will work with Pandas and Viz libraries to become confident in Data Analysis. You will learn the essentials for working with the data, Going in depth analysis about data and advance customization and visualization with Plotly library.        ",
         topicCovered:["Pandas", "Viz library", " visualization with Plotly library"]
     },
