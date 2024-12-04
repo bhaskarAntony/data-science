@@ -1,33 +1,31 @@
 {
-    "working":[
-         {
-        "works":"Basic understanding of Python Language"
-    },
-    {
-        "works":"Downloading Dataset from online source        "
-    },
-    {
-        "works":"Cleaning and Analyzing the dataset using Python libraries"
-    },
-    {
-        "works":"Finding hidden patterns and gaining useful insights from data          "
-    },
-    {
-        "works":"Customizing & Visualizing data using matplotlib and seaborn."
-    },
+    "working": [
         {
-            "works":"Acquire valuable, hands-on insights to launch your Data Science  career effectively"
+            "works": "Understand the fundamentals of LangChain and conversational AI development."
         },
         {
-            "works":"Get your burning questions answered by industry experts in real time"
+            "works": "Set up and integrate Large Language Models (LLMs) for dynamic chatbot interactions."
         },
         {
-            "works":"Learn from experts about the current job market's robust demand for careers in Data Science "
+            "works": "Clean, preprocess, and utilize data for building context-aware chatbots."
         },
         {
-            "works":"Attend our Bootcamp conveniently from your own home"
+            "works": "Discover and implement hidden patterns for enhancing chatbot intelligence and adaptability."
+        },
+        {
+            "works": "Customize and visualize chatbot workflows using modern tools and frameworks."
+        },
+        {
+            "works": "Gain hands-on experience in crafting end-to-end AI-driven chatbot projects."
+        },
+        {
+            "works": "Get expert insights into the best practices for conversational AI solutions."
+        },
+        {
+            "works": "Understand the job market and how conversational AI aligns with data science roles."
+        },
+        {
+            "works": "Participate in a live bootcamp from the comfort of your own home."
         }
-       
-
     ]
 }

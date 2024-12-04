@@ -5,41 +5,41 @@ const allFaqs = {
   "faq": [
     {
         "title": "quest1",
-        "quest": "How do I know whether this program is right for me?",
-        "ans":  "After reviewing the information on the program landing page, we recommend you submit the short form above to gain access to the program. If you still have questions on whether this program is a good fit for you, please email admin@be-practical.com, and a dedicated program advisor will follow up with you very shortly.       "
+        "quest": "Is this bootcamp suitable for beginners?",
+        "ans": "Yes, this bootcamp is designed for beginners as well as professionals looking to enhance their skills in conversational AI. Basic programming knowledge will help, but we provide foundational resources to get you started."
     },
     {
         "title": "quest2",
-        "quest": "Are there any prerequisites for this program?        ",
-        "ans":  "Some programs do have prerequisites, particularly the more technical ones. Good to have a github profile Good to have knowledge in Python"
+        "quest": "Are there any prerequisites for this bootcamp?",
+        "ans": "There are no strict prerequisites, but having a GitHub profile and familiarity with Python programming is recommended for a smoother learning experience."
     },
     {
         "title": "quest3",
-        "quest": "What are the requirements to earn a certificate?        ",
-        "ans":  "This is a graded program. You must complete a combination of individual assignments, online tests, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate.	        "
+        "quest": "What is required to earn a certificate?",
+        "ans": "To earn a certificate, you must complete individual assignments, participate in live sessions, and submit a final chatbot project. A minimum cumulative score of 60% is needed to qualify."
     },
     {
         "title": "quest4",
-        "quest": "What type of certificate will I receive?",
-        "ans":  "The digital certificate will be sent after the program, once grading is complete        "
+        "quest": "What kind of certificate will I receive?",
+        "ans": "You will receive a verified digital certificate of completion that can be shared on LinkedIn, GitHub, and other platforms."
     },
     {
         "title": "quest5",
-        "quest": "Can I get the hard copy of the certificate?        ",
-        "ans":  "No, only verified digital certificates will be issued upon successful completion. This allows you to share your credentials on social platforms such as LinkedIn, Facebook, and Twitter.        "
+        "quest": "Can I request a hard copy of the certificate?",
+        "ans": "No, only digital certificates will be issued. These are verifiable and shareable on professional networks."
     },
     {
         "title": "quest6",
-        "quest": "Do I receive alumni status after completing this program?        ",
-        "ans":  "No, there is no alumni status granted for this program. In some cases, there are credits that count toward a higher level of certification. We provide alumni status for those who joined for a full time program.        ."
+        "quest": "Do I gain alumni status after completing the bootcamp?",
+        "ans": "Alumni status is not granted for this bootcamp. However, completing this program may provide credits toward advanced certifications or full-time programs."
     },
     {
-      "title": "quest7",
-      "quest": "How long will I have access to the learning materials?      ",
-      "ans":  "You will have access to the learning platform and all program materials (videos excluded) for 3 months following the program end date. Access to the learning platform is restricted to registered participants per the terms of agreement will be forwarded through mail.      "
-  }
-]
-}
+        "title": "quest7",
+        "quest": "How long will I have access to the learning materials?",
+        "ans": "You will have access to the learning platform and study materials (excluding videos) for 3 months after the bootcamp concludes. Access is restricted to registered participants."
+    }
+  ]
+};
 
 function FAQ() {
   return (

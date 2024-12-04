@@ -3,36 +3,37 @@ import '../styles/highlights.css'
 
 const highlights = [
     {
-        image:"https://cdn-icons-png.flaticon.com/128/10789/10789560.png",
-        title:"Actionable Knowledge",
-        content:"Acquire valuable, hands-on insights to launch your  career in Data Science  effectively"
+        image: "https://cdn-icons-png.flaticon.com/128/10789/10789560.png",
+        title: "Actionable AI Insights",
+        content: "Gain practical experience in building context-aware chatbots with LangChain and LLMs."
     },
     {
-        image:"https://cdn-icons-png.flaticon.com/128/7257/7257539.png",
-        title:"Q&A Sessions",
-        content:"Get your burning questions answered by industry experts in real time"
+        image: "https://cdn-icons-png.flaticon.com/128/7257/7257539.png",
+        title: "Live Q&A Sessions",
+        content: "Have your questions answered in real time by seasoned experts in AI and chatbot development."
     },
     {
-        image:"https://cdn-icons-png.flaticon.com/128/9464/9464456.png",
-        title:"Industry Demand",
-        content:"Learn from experts about the current job market's robust demand for careers in Data Science "
+        image: "https://cdn-icons-png.flaticon.com/128/9464/9464456.png",
+        title: "AI Industry Relevance",
+        content: "Understand the growing demand for conversational AI and its applications in the current job market."
     },
     {
-        image:"https://cdn-icons-png.flaticon.com/128/11060/11060995.png",
-        title:"Flexible Learning",
-        content:"Attend our Bootcamp conveniently from your own home"
+        image: "https://cdn-icons-png.flaticon.com/128/11060/11060995.png",
+        title: "Learn Anywhere",
+        content: "Attend our live bootcamp sessions from the comfort of your home with flexible scheduling options."
     },
     {
-        image:"https://cdn-icons-png.flaticon.com/128/3660/3660781.png",
-        title:"Engage and Connect",
-        content:"Interact with seasoned industry professionals and fellow enthusiasts for an interactive learning experience"
+        image: "https://cdn-icons-png.flaticon.com/128/3660/3660781.png",
+        title: "Interactive Learning",
+        content: "Collaborate with industry professionals and peers to enhance your chatbot-building skills."
     },
     {
-        image:"https://cdn-icons-png.flaticon.com/128/3387/3387740.png",
-        title:"E-Certificate and study Material",
-        content:"We offer E-certificates upon completion of the Bootcamp and provide study materials"
+        image: "https://cdn-icons-png.flaticon.com/128/3387/3387740.png",
+        title: "Certificates & Resources",
+        content: "Receive a certificate of completion and access comprehensive study materials to support your learning."
     },
-]
+];
+
 
 function Highlights() {
   return (
